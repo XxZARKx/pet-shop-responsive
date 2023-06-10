@@ -310,4 +310,42 @@
     .botones{
         padding: 0;
     }
+
+    .subscribe{
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .subscribe .phrase{
+        font-size: 18px;
+    }
+
+    .subscribe .email{
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .subscribe .email p{
+        font-size: 13px;
+        width: 100%;
+        padding: 15px 10px 15px 20px;
+    }
+    
+    .subscribe .email span{
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .contactInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactInfo .logoFooter{
+        margin: 20px 0 0;
+        width: 200px;
+        padding: 0;
+        order: -1;
+    }
 }
